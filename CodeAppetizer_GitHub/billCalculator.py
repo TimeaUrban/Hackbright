@@ -3,10 +3,12 @@
 # TODO - Read this code and fix it.
 # (Part 1): Fix any bugs and make it work!
 
-bill = raw_input("How much was your bill?")
+bill = float(raw_input("How much was your bill?"))
 
 tip = bill * .18
 
 total_bill = bill + tip
 
 print "The tip is %f and the total bill is %f ." % (tip, total_bill)
+
+
